@@ -1,0 +1,38 @@
+.detail-team {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-team p {
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.detail-team p span {
+    font-weight: bold;
+}
+.div-progress-bar p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.progress-bar {
+    background: linear-gradient(95deg, #4A96D4, #5DD2EB);
+}
+@media (max-width: 992px) {
+    .detail-team {
+        height: fit-content;
+    }
+    .detail-team p {
+        font-size: 1em;
+    }
+    .div-progress-bar p {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 576px) {
+    .detail-team  {
+        margin-bottom: 2em;
+        text-align: center;
+    }
+}

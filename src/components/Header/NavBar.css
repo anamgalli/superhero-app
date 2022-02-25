@@ -1,0 +1,29 @@
+.navbar {
+    width: fit-content;
+    margin: auto;
+}
+.nav-link {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: rgb(70, 70, 70);
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: 26px;
+    width: 26px;
+    margin-right: 0.6em;
+    color: #5684F6;
+}
+@media (max-width: 468px) {
+    .navbar {
+        margin-top: 1em !important;
+    }
+    .nav-link {
+        font-size: 1em;
+    }
+    .login-form {
+        width: 100%;
+        background: transparent;
+    }
+}

@@ -1,0 +1,70 @@
+.header {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+    border-radius: 20px 0 0 20px;
+}
+.link-logo {
+    text-decoration: none;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4em;
+    width: fit-content;
+    margin: auto;
+    font-style: italic;
+    color: #4A96D4;
+    text-shadow: 2px 2px 3px rgb(156, 156, 156);
+}
+.s1, .s4 {
+    display: block;
+}
+.s1 {
+    margin-bottom: -20px;
+    margin-left: 5px;
+}
+.s3 {
+    font-size: 46px;
+    font-weight: bold;
+}
+.s4 {
+    text-align: right;
+    margin-top: -12px;
+    margin-right: 5px;
+}
+@media (max-width: 1200px) {
+    .title {
+        font-size: 2em;
+    }
+    .s1 {
+        margin-bottom: -12px;
+        margin-left: 0px;
+    }
+    .s3 {
+        font-size: 1.2em;
+    }
+    .s4 {
+        margin-top: -10px;
+        margin-right: 5px;
+    }
+}
+@media (max-width: 992px) {
+    .title {
+        font-size: 2em;
+    }
+    .s1 {
+        margin-bottom: -12px;
+        margin-left: 0px;
+    }
+    .s3 {
+        font-size: 1.2em;
+    }
+    .s4 {
+        margin-top: -10px;
+        margin-right: 5px;
+    }
+}
+@media (max-width: 468px) {
+    .title {
+        font-size: 2em;
+    }
+}

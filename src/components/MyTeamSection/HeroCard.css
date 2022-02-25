@@ -1,0 +1,97 @@
+.main-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    min-height: 100vh;
+}
+.cards-team {
+    margin: 0;
+}
+.hero-card {
+    height: 340px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(240, 240, 240, 0.5);
+    border: none;
+}
+.card-img-top {
+    height: 100%;
+    transition: opacity 0.4s ease;
+}
+.card:hover .card-img-top {
+    opacity: 0.4;
+}
+.div-progress-bar-card p {
+    font-size: 0.8em;
+}
+/* CARD BODY */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    bottom: -100%;
+    opacity: 0;
+    transition: all 0.8s ease;
+    color: #000;
+    text-transform: uppercase;
+}
+.card-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+.card:hover .card-body {
+    bottom: 0%;
+    opacity: 1;
+}
+.powerstat {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+}
+.powerstat:last-child {
+    margin-bottom: 0;
+}
+.div-btn-card {
+    display: flex;
+    justify-content: center;
+}
+.btn-card {
+    display: inline;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+@media (max-width: 576px) {
+    .card {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+    .powerstat {
+        padding-bottom: 0.4em;
+        margin-bottom: 0.4em;
+    }
+}
+@media (max-width: 400px) {
+    .card {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    .powerstat {
+        padding-bottom: 0.2em;
+        margin-bottom: 0.2em;
+    }
+}
+
+
+
